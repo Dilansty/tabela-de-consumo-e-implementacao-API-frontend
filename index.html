@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer type="module"></script>
+    <title>Contatos</title>
+</head>
+
+<body>
+    <div class="guarda-input 01">
+        <input placeholder="nome" type="text">
+        <input placeholder="celular" type="text">
+        <input placeholder="foto" type="text">
+    </div>
+    <div class="guarda-input 02">
+        <input placeholder="email" type="text">
+        <input placeholder="endereco" type="text">
+        <input placeholder="cidade" type="text">
+    </div>
+    <div class="save-button-holder">
+        <button class="save-button">
+            Salvar
+        </button>
+    </div>
+    <table class="tabela-contato">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Silva</td>
+                <td>Desenvolvedora</td>
+                <td>São Paulo</td>
+                
+                <td >
+                    <div class="button-select-box">
+                        <button class="button-select">
+                            Validar
+                        </button >
+                        <button class="button-select">
+                            Apagar
+                        </button>
+                    </div>    
+                </td>
+            </tr>
+            <tr>
+                <td>Carlos Santos</td>
+                <td>Designer</td>
+                <td>Jandira</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
